@@ -20,11 +20,7 @@ func main() {
 			os.Args[0])
 		os.Exit(1)
 	}
-
 	bucket := os.Args[1]
-
-	// Initialize a session in eu-west-1 that the SDK will use to load
-	// credentials from the shared credentials file ~/.aws/credentials.
 
 	cfg, err := config.LoadDefaultConfig(context.TODO(), config.WithRegion("eu-west-1"))
 	if err != nil {
