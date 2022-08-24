@@ -9,7 +9,8 @@ BUCKET=                 // Only the bucket name ex. system-backups
 FILE_AGE_IN_HOURS=      // Defaults to 24
 AWS_REGION=             // 
 FILE_PATH=              // Optional path prefix
-OBJECT_SIZE_MB=         // Defaults to 1
+MIN_SIZE_MB=            // Minimum file size in MB
+MAX_SIZE_MB=            // Maximum file size in MB
 ```
 
 ## Usage
